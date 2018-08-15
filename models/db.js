@@ -7,6 +7,7 @@ var DB = function(){};
 DB.prototype.createPool = function(){
 	return mysql.createPool({
 			host     : 'localhost', // Hostname 'localhost' If locally connected
+		    port     : 3305,
 			user     : 'root',      // Username
 			password : '',          // Password
 			database: '',           // Database name
